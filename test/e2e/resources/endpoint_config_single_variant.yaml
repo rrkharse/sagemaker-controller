@@ -9,8 +9,7 @@ spec:
       modelName: $MODEL_NAME
       # instanceCount is 2 to test retainAllVariantProperties
       initialInstanceCount: 2
-      # This is the smallest instance type which will support scaling
-      instanceType: ml.c5.large
+      instanceType: ml.m5.large
       initialVariantWeight: 1
   tags:
     - key: confidentiality

@@ -7,7 +7,7 @@ spec:
   productionVariants:
   - modelName: $MODEL_NAME
     variantName: AllTraffic
-    instanceType: ml.c5.large
+    instanceType: ml.m5.large
     initialVariantWeight: 1
     initialInstanceCount: 1
   dataCaptureConfig:
