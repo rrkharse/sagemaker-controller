@@ -8,12 +8,12 @@ spec:
     - variantName: variant-1
       modelName: $MODEL_NAME
       initialInstanceCount: 1
-      instanceType: ml.m5.large
+      instanceType: ml.t3.medium
       initialVariantWeight: 1
     - variantName: variant-2
       modelName: $MODEL_NAME
       initialInstanceCount: 1
-      instanceType: ml.m5.large
+      instanceType: ml.t3.medium
       initialVariantWeight: 1
   tags:
     - key: confidentiality

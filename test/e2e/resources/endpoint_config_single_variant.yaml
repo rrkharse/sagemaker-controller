@@ -9,7 +9,7 @@ spec:
       modelName: $MODEL_NAME
       # instanceCount is 2 to test retainAllVariantProperties
       initialInstanceCount: 2
-      instanceType: ml.m5.large
+      instanceType: ml.t3.medium
       initialVariantWeight: 1
   tags:
     - key: confidentiality
