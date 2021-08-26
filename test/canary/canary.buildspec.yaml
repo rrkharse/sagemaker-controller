@@ -21,6 +21,6 @@ phases:
       - docker run --name ack-canary $(env | cut -f1 -d= | sed 's/^/-e /') --mount type=bind,source="$(pwd)/",target="/${SERVICE}-controller/" ${ECR_CACHE_URI}:latest
       
       # Push test image to cache ECR repo
-      - docker push ${ECR_CACHE_URI}:latest || true
+      # - docker push ${ECR_CACHE_URI}:latest || true
       
       
